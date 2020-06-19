@@ -9,6 +9,11 @@ verify_ssl = true
 jupyter = "*"
 thoth-lab = "==0.1.11"
 pandas = "*"
+nltk = "*"
+pyonmttok = "*"
+gensim = "*"
+kneed = "*"
+thoth-storages = "*"
 
 [requires]
 python_version = "3.6"
