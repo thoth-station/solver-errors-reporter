@@ -7,13 +7,13 @@ verify_ssl = true
 
 [packages]
 jupyter = "*"
-thoth-lab = "==0.1.11"
 pandas = "*"
 nltk = "*"
 pyonmttok = "*"
 gensim = "*"
 kneed = "*"
 thoth-storages = "*"
+thoth-lab = "==0.2.3"
 
 [requires]
 python_version = "3.6"
