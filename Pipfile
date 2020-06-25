@@ -13,7 +13,7 @@ pyonmttok = "*"
 gensim = "*"
 kneed = "*"
 thoth-storages = "*"
-thoth-lab = "==0.2.3"
+thoth-lab = "==0.2.5"
 
 [requires]
 python_version = "3.6"
