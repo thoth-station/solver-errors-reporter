@@ -1,4 +1,4 @@
-# template-project
+# Classify errors in Solved Python Packages
 
 This is a Template for any Python based project, it contains what Project Thoth and the AI CoE need:
 
