@@ -6,14 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-jupyter = "*"
-pandas = "*"
+regex = "*"
+thoth-storages = "==0.24.0"
 nltk = "*"
-pyonmttok = "*"
+thoth-lab = "==0.2.5"
+pandas = "==1.0.5"
 gensim = "*"
 kneed = "*"
-thoth-storages = "*"
-thoth-lab = "==0.2.5"
 
 [requires]
 python_version = "3.6"
