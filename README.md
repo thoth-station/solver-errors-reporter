@@ -20,7 +20,7 @@ Thoth Solver Dataset is made by solver reports in json format, where each solver
 
 ### Thoth Solver Error Data
 If the installation of a package was not succesfull there will be information stored for each package error;
-#### Solver Error data from solver reports consists of follwoing information:
+#### Solver Error data from solver reports consists of following information:
 - **command**,command used to install the package;
 - **message**,error log;
 - **return_code**,
