@@ -13,6 +13,7 @@ thoth-lab = "==0.2.5"
 pandas = "==1.0.5"
 gensim = "*"
 kneed = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.6"
