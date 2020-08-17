@@ -14,6 +14,7 @@ pandas = "==1.0.5"
 gensim = "*"
 kneed = "*"
 sklearn = "*"
+papermill = "*"
 
 [requires]
 python_version = "3.6"
