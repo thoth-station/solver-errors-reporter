@@ -184,6 +184,7 @@
         "boto3": {
             "hashes": [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "sha256:01d45a986abd81d4b55f5649060fcbc49f6f87deaa508b99367a9d9ea21c0347",
                 "sha256:b1936392d1491b4de04a972636c91904ec814519d8847d11e3375d77d5df1b12"
             ],
@@ -196,6 +197,8 @@
             ],
             "version": "==1.17.44"
 =======
+=======
+>>>>>>> 119063490ab50fbd3c50c09ecb3d81103a4ccc37
                 "sha256:a88d486dcbc80c3e180d811707b366f7b178cf293e0746ae3c00c24a07deac92",
                 "sha256:c9cab4e0ce77a8c54724eadff047adc976e541f912ca15e35bb475f42b344e0c"
             ],
@@ -207,7 +210,10 @@
                 "sha256:feb71e0d2e73fed3c35f1ebfc6b9ff6e499dc9c66db60b63c787fffea3b360a5"
             ],
             "version": "==1.17.40"
+<<<<<<< HEAD
 >>>>>>> Added parameters for papermill
+=======
+>>>>>>> 119063490ab50fbd3c50c09ecb3d81103a4ccc37
         },
         "cachetools": {
             "hashes": [
