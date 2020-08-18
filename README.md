@@ -34,12 +34,19 @@ If the installation of a package was not succesfull there will be information st
 
 
 ## This repo contains two notebooks :
+**These notebooks can be executed in a workflow using [papermill](https://github.com/nteract/papermill).**
+
 **1. Template notebook to pre-process solver dataset and output clean dataset which is the input for clustering : [notebooks/PreprocessSolverErrorData.ipynb](notebooks/PreprocessSolverErrorData.ipynb)** \
-The purpose of this notebook is to preprocess solver data, i.e, extract error data from solver data, prepare data for clustering, clean and tokenize the clustering data and save the clean dataset for ClusterError notebook.
-  
+The purpose of this notebook is to preprocess solver data, i.e, extract error data from solver data, prepare data for clustering, clean and tokenize the clustering data and save the clean dataset for ClusterError notebook.\
+Excuecute via CLI: \
+ `papermill PreprocessSolverErrorData.ipynb PreprocessSolverErrorData.ipynb -p get_fresh_data False`\
+ where get_fresh_data is the parameter which decides if we need to get fresh data from Ceph or use the data from csv file.
+ 
 **2. Template notebook to cluster errors to identify the type of errors that can appear in solver reports : [notebooks/ClusterErrors.ipynb](notebooks/ClusterErrors.ipynb)** \
-The purpose of this notebook is to cluster solver errors in order to identify the type of errors that can appear in solver reports.
-  
+The purpose of this notebook is to cluster solver errors in order to identify the type of errors that can appear in solver reports.\
+ Excuecute via CLI: \
+ `papermill ClusterErrors.ipynb ClusterErrors.ipynb -p preprocessed_filename  'error-clean-data.csv'`\
+ where preprocessed_filename is the parameter which contains the filename of preprocessed clean data.
 
 ## Background/References
 **1. Thoth:** https://thoth-station.ninja/ \
