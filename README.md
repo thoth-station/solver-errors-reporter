@@ -34,7 +34,7 @@ If the installation of a package was not succesfull there will be information st
 
 
 ## This repo contains two notebooks :
-**These notebooks can be executed in a workflow using [papermill](https://github.com/nteract/papermill).**
+**These notebooks can be parametrized using [papermill](https://github.com/nteract/papermill). In this way, we can run the template notebooks automatically locally or in Argo workflow.**
 
 **1. Template notebook to pre-process solver dataset and output clean dataset which is the input for clustering : [notebooks/PreprocessSolverErrorData.ipynb](notebooks/PreprocessSolverErrorData.ipynb)** \
 The purpose of this notebook is to preprocess solver data, i.e, extract error data from solver data, prepare data for clustering, clean and tokenize the clustering data and save the clean dataset for ClusterError notebook.\
