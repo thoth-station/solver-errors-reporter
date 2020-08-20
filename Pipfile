@@ -15,7 +15,6 @@ gensim = "*"
 kneed = "*"
 sklearn = "*"
 papermill = "*"
-black = "*"
 
 [requires]
 python_version = "3.6"
