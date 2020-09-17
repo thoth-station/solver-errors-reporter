@@ -1337,11 +1337,11 @@
         },
         "thoth-report-processing": {
             "hashes": [
-                "sha256:257db7b47ef8a5f314134f12ed868550c7ff851cb7d5c901610bd15792730191",
-                "sha256:dc9c992255f2a470a7f19f37929fe2eed1de68c6034c818c8d6a4a018de87402"
+                "sha256:2ac025de4423ca658af97343bf02e5eab1261db78c9d3a9ee7a18cde9c0d94bc",
+                "sha256:e23622eedb1006af248c849b9db9831abe5a2e4063acb5308c1cf35b4e03dd58"
             ],
             "index": "pypi",
-            "version": "==0.3.3"
+            "version": "==0.3.4"
         },
         "thoth-storages": {
             "hashes": [
