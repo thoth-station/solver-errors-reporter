@@ -7,14 +7,15 @@ verify_ssl = true
 
 [packages]
 regex = "*"
-thoth-storages = "==0.24.0"
+thoth-storages = "*"
 nltk = "*"
-thoth-lab = "==0.2.5"
 pandas = "==1.0.5"
 gensim = "*"
 kneed = "*"
 sklearn = "*"
 papermill = "*"
+jupyter = "*"
+thoth-report-processing = "*"
 
 [requires]
 python_version = "3.6"
